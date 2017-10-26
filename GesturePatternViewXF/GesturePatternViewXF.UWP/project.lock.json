@@ -22773,12 +22773,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "S:\\dev\\github\\faulandcc\\GesturePatternViewXF\\GesturePatternViewXF\\GesturePatternViewXF.UWP\\GesturePatternViewXF.UWP.csproj",
+      "projectUniqueName": "S:\\dev\\github\\faulandcc\\XFGesturePatternView\\GesturePatternViewXF\\GesturePatternViewXF.UWP\\GesturePatternViewXF.UWP.csproj",
       "projectName": "GesturePatternViewXF.UWP",
-      "projectPath": "S:\\dev\\github\\faulandcc\\GesturePatternViewXF\\GesturePatternViewXF\\GesturePatternViewXF.UWP\\GesturePatternViewXF.UWP.csproj",
-      "projectJsonPath": "S:\\dev\\github\\faulandcc\\GesturePatternViewXF\\GesturePatternViewXF\\GesturePatternViewXF.UWP\\project.json",
+      "projectPath": "S:\\dev\\github\\faulandcc\\XFGesturePatternView\\GesturePatternViewXF\\GesturePatternViewXF.UWP\\GesturePatternViewXF.UWP.csproj",
+      "projectJsonPath": "S:\\dev\\github\\faulandcc\\XFGesturePatternView\\GesturePatternViewXF\\GesturePatternViewXF.UWP\\project.json",
       "packagesPath": "C:\\Users\\afaul\\.nuget\\packages\\",
-      "outputPath": "S:\\dev\\github\\faulandcc\\GesturePatternViewXF\\GesturePatternViewXF\\GesturePatternViewXF.UWP\\obj\\",
+      "outputPath": "S:\\dev\\github\\faulandcc\\XFGesturePatternView\\GesturePatternViewXF\\GesturePatternViewXF.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\afaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22792,8 +22792,8 @@
       "frameworks": {
         "uap10.0.10586": {
           "projectReferences": {
-            "S:\\dev\\github\\faulandcc\\GesturePatternViewXF\\GesturePatternViewXF\\GesturePatternViewXF\\GesturePatternViewXF.csproj": {
-              "projectPath": "S:\\dev\\github\\faulandcc\\GesturePatternViewXF\\GesturePatternViewXF\\GesturePatternViewXF\\GesturePatternViewXF.csproj"
+            "S:\\dev\\github\\faulandcc\\XFGesturePatternView\\GesturePatternViewXF\\GesturePatternViewXF\\GesturePatternViewXF.csproj": {
+              "projectPath": "S:\\dev\\github\\faulandcc\\XFGesturePatternView\\GesturePatternViewXF\\GesturePatternViewXF\\GesturePatternViewXF.csproj"
             }
           }
         }
