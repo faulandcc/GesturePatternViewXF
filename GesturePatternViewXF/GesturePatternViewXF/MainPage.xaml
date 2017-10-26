@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GesturePatternViewXF"
+             x:Class="GesturePatternViewXF.MainPage">
+    <Grid BackgroundColor="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Text="{Binding GestureValue}" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" TextColor="White"/>
+        <local:GesturePatternView x:Name="MyGesturePatternView" Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Black"
+                                  HorizontalTouchPoints="3" VerticalTouchPoints="3"
+                                  GesturePatternValue="{Binding GestureValue, Mode=TwoWay}" TouchPointColor="White" TouchPointHighlightColor="Yellow" LineDrawingColor="Green" LineDrawnColor="Red"
+                                  GesturePatternCompleted="MyGesturePatternView_OnGesturePatternCompleted"/>
+    </Grid>
+</ContentPage>
