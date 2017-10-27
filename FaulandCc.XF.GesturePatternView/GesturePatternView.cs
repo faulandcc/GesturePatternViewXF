@@ -9,7 +9,7 @@ using SkiaSharp.Views.Forms;
 using Xamarin.Forms;
 using ContentView = Xamarin.Forms.ContentView;
 
-namespace GesturePatternViewXF
+namespace FaulandCc.XF.GesturePatternView
 {
     public delegate void GesturePatternCompletedEventHandler(object sender, GesturePatternCompletedEventArgs e);
     public delegate void TouchPointTouchedEventHandler(object sender, TouchPointTouchedEventArgs e);

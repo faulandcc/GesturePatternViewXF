@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using FaulandCc.XF.GesturePatternView;
+using Xamarin.Forms;
 
 namespace GesturePatternViewXF
 {

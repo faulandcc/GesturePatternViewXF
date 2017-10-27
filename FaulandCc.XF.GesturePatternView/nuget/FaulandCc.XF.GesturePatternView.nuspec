@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>Alexander Fauland</owners>
+    <licenseUrl>https://github.com/faulandcc/GesturePatternViewXF/blob/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/faulandcc/GesturePatternViewXF</projectUrl>
+    <iconUrl>https://github.com/faulandcc/GesturePatternViewXF/blob/master/faulandcc.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>$copyright$</copyright>
+    <tags>xamarin, xamarin.forms, android, ios, uwp, plugins, plugin for xamarin, gesture, login, pattern</tags>
+  </metadata>
+</package>

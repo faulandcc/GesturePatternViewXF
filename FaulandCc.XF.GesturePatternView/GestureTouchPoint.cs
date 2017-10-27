@@ -1,6 +1,6 @@
 ﻿using Xamarin.Forms;
 
-namespace GesturePatternViewXF
+namespace FaulandCc.XF.GesturePatternView
 {
 	public class GestureTouchPoint
 	{
