@@ -6,9 +6,9 @@
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>Alexander Fauland</owners>
-    <licenseUrl>https://github.com/faulandcc/GesturePatternViewXF/blob/master/license.txt</licenseUrl>
+    <licenseUrl>https://github.com/faulandcc/GesturePatternViewXF/blob/master/FaulandCc.XF.GesturePatternView/nuget/License.txt</licenseUrl>
     <projectUrl>https://github.com/faulandcc/GesturePatternViewXF</projectUrl>
-    <iconUrl>https://github.com/faulandcc/GesturePatternViewXF/blob/master/faulandcc.png</iconUrl>
+    <iconUrl>http://www.fauland.cc/dev/faulandcc.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>$copyright$</copyright>
