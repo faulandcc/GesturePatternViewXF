@@ -67,8 +67,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="nuget\faulandcc.png" />
-    <Content Include="nuget\License.txt" />
+    <None Include="nuget\License.txt" />
     <None Include="CreateNuGetPackage.bat" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
