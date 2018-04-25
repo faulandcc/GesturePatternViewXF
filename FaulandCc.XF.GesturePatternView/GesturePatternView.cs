@@ -257,7 +257,8 @@ namespace FaulandCc.XF.GesturePatternView
                 bool hasPendingPoint = true;
                 foreach (var gestureTouchPoint in _touchPoints)
                 {
-                    if (TouchedTouchPoint(location, gestureTouchPoint) && gestureTouchPoint.Value != _lastTouchPointValue)
+                    if (TouchedTouchPoint(location, gestureTouchPoint) && gestureTouchPoint.Value != _lastTouchPointValue && 
+                        !_gestureValueBuilder.ToString().Contains(gestureTouchPoint.Value))
                     {
                         gestureTouchPoint.Touch();
                         _gestureValueBuilder.Append(gestureTouchPoint.Value);
