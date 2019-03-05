@@ -1,1 +1,1 @@
-﻿"s:\dev\nuget.exe" pack FaulandCc.XF.GesturePatternView.csproj
+"s:\dev\nuget.exe" pack FaulandCc.XF.GesturePatternView.csproj -Prop Configuration=Release

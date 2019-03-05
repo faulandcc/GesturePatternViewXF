@@ -2254,14 +2254,8 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "FaulandCc.XF.GesturePatternView/1.0.0": {
-        "type": "project"
-      },
       "GesturePatternViewXF/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "FaulandCc.XF.GesturePatternView": "1.0.0"
-        }
+        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-arm": {
@@ -4580,14 +4574,8 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "FaulandCc.XF.GesturePatternView/1.0.0": {
-        "type": "project"
-      },
       "GesturePatternViewXF/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "FaulandCc.XF.GesturePatternView": "1.0.0"
-        }
+        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-arm-aot": {
@@ -6942,14 +6930,8 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "FaulandCc.XF.GesturePatternView/1.0.0": {
-        "type": "project"
-      },
       "GesturePatternViewXF/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "FaulandCc.XF.GesturePatternView": "1.0.0"
-        }
+        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x64": {
@@ -9277,14 +9259,8 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "FaulandCc.XF.GesturePatternView/1.0.0": {
-        "type": "project"
-      },
       "GesturePatternViewXF/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "FaulandCc.XF.GesturePatternView": "1.0.0"
-        }
+        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x64-aot": {
@@ -11648,14 +11624,8 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "FaulandCc.XF.GesturePatternView/1.0.0": {
-        "type": "project"
-      },
       "GesturePatternViewXF/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "FaulandCc.XF.GesturePatternView": "1.0.0"
-        }
+        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x86": {
@@ -13983,14 +13953,8 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "FaulandCc.XF.GesturePatternView/1.0.0": {
-        "type": "project"
-      },
       "GesturePatternViewXF/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "FaulandCc.XF.GesturePatternView": "1.0.0"
-        }
+        "type": "project"
       }
     },
     "UAP,Version=v10.0.10586/win10-x86-aot": {
@@ -16354,14 +16318,8 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "FaulandCc.XF.GesturePatternView/1.0.0": {
-        "type": "project"
-      },
       "GesturePatternViewXF/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "FaulandCc.XF.GesturePatternView": "1.0.0"
-        }
+        "type": "project"
       }
     }
   },
@@ -16447,10 +16405,12 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.0.1": {
-      "sha512": "2G6OjjJzwBfNOO8myRV/nFrbTw5iA+DEm0N+qUqhrOmaVtn4pC77h38I1jsXGw5VH55+dPfQsqHD0We9sCl9FQ==",
+      "sha512": "oq9B289GvIVAo9xfJFNBuuLiE55OopBcS3oZlSYyispEcCigEcs6X6CJM4lfQVXegTkx+o2Z6Xx9EYcpHPKGfA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.0.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -16567,10 +16527,12 @@
       ]
     },
     "Microsoft.NETCore.UniversalWindowsPlatform/5.2.2": {
-      "sha512": "9UHv2YObWmcF8gqtBoDC4UW5gdHzFRtaZ5KtB9QKvCy+NC9LH1DMYyOI/ltupjVZlwYEulj3msjBXys9/QI6nw==",
+      "sha512": "wlgSv7CPExdeuu4piwbIYUKdk24fp6VONwfVYa+k/WVYKQ5N8jMapP0BarYJlwWNR16Le8oyCijC7EsybeTokg==",
       "type": "package",
       "path": "microsoft.netcore.universalwindowsplatform/5.2.2",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "microsoft.netcore.universalwindowsplatform.5.2.2.nupkg.sha512",
@@ -17631,10 +17593,12 @@
       ]
     },
     "SkiaSharp/1.59.1": {
-      "sha512": "Le+YqP0aWwJ5ImHikWiLWOWjdH8oOV6F2D7fknzKp9ArzDIrtPASeiHpI1RgqQEK/GGvR56B2l5belsDzwK7uQ==",
+      "sha512": "Pyq7tiXrysvxIlY2ddD/WSFR1EA0qCwMQIYQpCMVWKdA8Zy0aGqh5zcLALsR6rMlc3W4/0NdZR+B7xDtGuP2rg==",
       "type": "package",
       "path": "skiasharp/1.59.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "build/net45/SkiaSharp.dll.config",
         "build/net45/SkiaSharp.targets",
         "lib/MonoAndroid/SkiaSharp.dll",
@@ -17672,10 +17636,12 @@
       ]
     },
     "SkiaSharp.Views/1.59.1.1": {
-      "sha512": "1MQmOh3OjdrCD87Ehdn986RoD43WEe8D9zzncCotuAckYHB++JmDv1poOhaiWtoYqCLXU6Vk5IcQR6+EgZ0ofQ==",
+      "sha512": "DHXi8tefhCjip/zQqhVqx475poNmSWORqza84xR0CDpcJHz/DOr2Iy42aQQSi0TW0kB6CJkqc8r476SzHGrqiw==",
       "type": "package",
       "path": "skiasharp.views/1.59.1.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid/SkiaSharp.Views.Android.dll",
         "lib/XamarinMac/SkiaSharp.Views.Mac.dll",
         "lib/XamariniOS/SkiaSharp.Views.iOS.dll",
@@ -17688,10 +17654,12 @@
       ]
     },
     "SkiaSharp.Views.Forms/1.59.1.1": {
-      "sha512": "9SvUAas8A7Tj4NuvFX3Z+tCQFbC+XSayRJPI3zxrzfc8g0WTc2S0yCj8+wm/eSTB5fHmFguu9FOoiyYMj53fiw==",
+      "sha512": "KeIn+4JYFQDdxRj/e6vC+ftuPe4ez+KOGV7PFJn/7rivv+YoAb9QzJ1RDofM1pDmZRYOzyw3ve22DtW3isbbRQ==",
       "type": "package",
       "path": "skiasharp.views.forms/1.59.1.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid/SkiaSharp.Views.Forms.dll",
         "lib/XamarinMac/SkiaSharp.Views.Forms.dll",
         "lib/XamariniOS/SkiaSharp.Views.Forms.dll",
@@ -20019,10 +19987,12 @@
       ]
     },
     "System.Private.DataContractSerialization/4.1.1": {
-      "sha512": "lcqFBUaCZxPiUkA4dlSOoPZGtZsAuuElH2XHgLwGLxd7ZozWetV5yiz0qGAV2AUYOqw97MtZBjbLMN16Xz4vXA==",
+      "sha512": "TgM5uU9N5wQVdaby3A5AJv+cTe84GCZOyn5c6sMgehnnw4i3i8Wa4JDR8sGvvJkRMqceChSeB3d6fkRqFXWdwA==",
       "type": "package",
       "path": "system.private.datacontractserialization/4.1.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.3/System.Private.DataContractSerialization.dll",
@@ -20033,10 +20003,12 @@
       ]
     },
     "System.Private.ServiceModel/4.1.0": {
-      "sha512": "/QviVqIgta03ms7IDFALHCJOQCANZ1lILobf/OoLzdphHN40M3r6zqso2NsKvvSV7rJus+QLLWS/q33XGIybrQ==",
+      "sha512": "wYCHHnfDjUOJrzmNZkHxjZSkJKEvWIgEmTDkr2P9405g9BT8Qj9/sW8eR2Tf0OZPV2zRL11AuQJCCQzoRwBugA==",
       "type": "package",
       "path": "system.private.servicemodel/4.1.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "ref/netstandard/_._",
@@ -20935,10 +20907,12 @@
       ]
     },
     "System.Runtime.Serialization.Json/4.0.2": {
-      "sha512": "+7DIJhnKYgCzUgcLbVTtRQb2l1M0FP549XFlFkQM5lmNiUBl44AfNbx4bz61xA8PzLtlYwfmif4JJJW7MPPnjg==",
+      "sha512": "Yk38InmtfRD5VWfWpKQQHCmJJXiI4Z1z6eZeCMq4B0qcI6FT90WsQLfI76HvwU46AQje677Mr8MsyhyZuZd3cg==",
       "type": "package",
       "path": "system.runtime.serialization.json/4.0.2",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -21063,10 +21037,12 @@
       ]
     },
     "System.Runtime.Serialization.Xml/4.1.1": {
-      "sha512": "yqfKHkWUAdI0hdDIdD9KDzluKtZ8IIqLF3O7xIZlt6UTs1bOvFRpCvRTvGQva3Ak/ZM9/nq9IHBJ1tC4Ybcrjg==",
+      "sha512": "J47affYgM/98k14wFySyvsymOFyiD/RCollwjX62giAil42VSAzQHEpEeHxAtmyqVoCjjpxxmGv9LXZNQ+23ew==",
       "type": "package",
       "path": "system.runtime.serialization.xml/4.1.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -21505,10 +21481,12 @@
       ]
     },
     "System.ServiceModel.Duplex/4.0.1": {
-      "sha512": "4I6WSQP4BiT3yG5NetAyAb626e2HlsgSzkiiqGtf4LxGpO3uFQ4eGSXsgVRnxJoDYcnDCH7q215eH/jZBMmx+w==",
+      "sha512": "BOP98l5/JVIpbiZGdV/uiuktit2hyyYwexUw5Oia9qj3p3v9kS73P4wMjTzB9DLfYxp6m/SOtIW1UEyoEuZxcg==",
       "type": "package",
       "path": "system.servicemodel.duplex/4.0.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -21546,10 +21524,12 @@
       ]
     },
     "System.ServiceModel.Http/4.1.0": {
-      "sha512": "sCIV+wrA4Antjnk0+fk6rxpzQkd2bReN4UTipGv5iyPNApVv/KtAfeDMg+YIajJ7VkQD60uVBTQmy3LZrRnNOw==",
+      "sha512": "6Hq3HKaBGxT3jy4kfUvkouweY2b92lFwd4viu5fKvPEWRI7aTFwB0qiJh8XvhPcPm/znRkpj+DegF64yjM7BBA==",
       "type": "package",
       "path": "system.servicemodel.http/4.1.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -21625,10 +21605,12 @@
       ]
     },
     "System.ServiceModel.NetTcp/4.1.0": {
-      "sha512": "n+Ir2B9SAd5XwAaXPIpLQsbaDcscSsyJH0ODpm5tpK8xXxmLhiPct5kujzeAiAhB37lVSetrSINdFb1Llg2ngg==",
+      "sha512": "LQs6cgd+6K7VOx+km0aTUiYzXu1PQvxZFz53aePBKXks/6ehvuGNXcre0wr6kaMHjcVbwisbVH5BKi/K+0lsiw==",
       "type": "package",
       "path": "system.servicemodel.nettcp/4.1.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -21679,10 +21661,12 @@
       ]
     },
     "System.ServiceModel.Primitives/4.1.0": {
-      "sha512": "Kd65HOn/5pL9xtCUkSL8xVqpqBUYy9tsfo0qe/MTTzApY8WQ+6i4I2ts++M+m4vbOanCoEsjjUj26P6C6ilQjQ==",
+      "sha512": "6DhBxWJT8GSpB2vjlS8APGx05R57Pj4kUKPiZcw7sRGSr9ckehjmzu8sNEmWNsUBCz9LJseG9IRN8RBZZT+grA==",
       "type": "package",
       "path": "system.servicemodel.primitives/4.1.0",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -21758,10 +21742,12 @@
       ]
     },
     "System.ServiceModel.Security/4.0.1": {
-      "sha512": "82pkDb6LMq/NHi+DVHZ7zKHMMJ7mR6rVl9TpH+p8zJhZrVYJez9vTbdMsxQhbNOngEkJKzZFveNYpaRv/3RMsg==",
+      "sha512": "fWGD0tqfGkUHY+oIqhzY9BwQVHwUgJL2ZXEZg7bzDNcAxo1bOWfo6Dk4Y9n464GMraLmmLyKggjhARZ9K9wCMg==",
       "type": "package",
       "path": "system.servicemodel.security/4.0.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/net45/_._",
@@ -22605,10 +22591,12 @@
       ]
     },
     "Xam.Plugins.Vibrate/3.0.1": {
-      "sha512": "gJBkGl74rl+Y7j2gdESjdBYT7wiww3BdHPGVJVcNyjdOG9LDJ1dqbKz1RDJFVfLXlKUg7XPHPpiY6/kh5LxNmA==",
+      "sha512": "c4JEfRNRmFhNr0wYEC6+fewWqimOR5Zkr3834p8nYMZzXmaGT3riRlqxAZUVfV+FnLSiH50YnDS1SjssNEx9tA==",
       "type": "package",
       "path": "xam.plugins.vibrate/3.0.1",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "lib/MonoAndroid10/Plugin.Vibrate.Abstractions.dll",
         "lib/MonoAndroid10/Plugin.Vibrate.Abstractions.pdb",
         "lib/MonoAndroid10/Plugin.Vibrate.Abstractions.xml",
@@ -22639,10 +22627,12 @@
       ]
     },
     "Xamarin.Forms/2.3.4.224": {
-      "sha512": "cjA3h83bCmnEjEYLcvi2n+rPc3rs3kuB/r5z5R/BFtBLp8kgV8AEImKBcYglsZ80uX3OSIVnPXN9lJ25GMGAmg==",
+      "sha512": "XtqJlP20Gmy4VS0FEGDUxkavWDxDeHXhJthx+5XD3a/9t6REo9VsYk1te+FoSwu+jW7VO1TxKHQydkKuNDr80Q==",
       "type": "package",
       "path": "xamarin.forms/2.3.4.224",
       "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Mdb.dll",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Pdb.dll",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Rocks.dll",
@@ -22795,11 +22785,6 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "FaulandCc.XF.GesturePatternView/1.0.0": {
-      "type": "project",
-      "path": "../../FaulandCc.XF.GesturePatternView/FaulandCc.XF.GesturePatternView.csproj",
-      "msbuildProject": "../../FaulandCc.XF.GesturePatternView/FaulandCc.XF.GesturePatternView.csproj"
-    },
     "GesturePatternViewXF/1.0.0": {
       "type": "project",
       "path": "../GesturePatternViewXF/GesturePatternViewXF.csproj",
@@ -22816,7 +22801,8 @@
     "UAP,Version=v10.0.10586": []
   },
   "packageFolders": {
-    "C:\\Users\\afaul\\.nuget\\packages\\": {}
+    "C:\\Users\\afaul\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "restore": {
@@ -22827,14 +22813,17 @@
       "packagesPath": "C:\\Users\\afaul\\.nuget\\packages\\",
       "outputPath": "S:\\dev\\github\\faulandcc\\XFGesturePatternView\\GesturePatternViewXF\\GesturePatternViewXF.UWP\\obj\\",
       "projectStyle": "ProjectJson",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\afaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.telerik.com/nuget": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "uap10.0.10586": {
@@ -22847,10 +22836,10 @@
       }
     },
     "dependencies": {
-      "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
-      "SkiaSharp.Views.Forms": "1.59.1.1",
-      "Xam.Plugins.Vibrate": "3.0.1",
-      "Xamarin.Forms": "2.3.4.224"
+      "Microsoft.NETCore.UniversalWindowsPlatform": "[5.2.2, )",
+      "SkiaSharp.Views.Forms": "[1.59.1.1, )",
+      "Xam.Plugins.Vibrate": "[3.0.1, )",
+      "Xamarin.Forms": "[2.3.4.224, )"
     },
     "frameworks": {
       "uap10.0.10586": {}
