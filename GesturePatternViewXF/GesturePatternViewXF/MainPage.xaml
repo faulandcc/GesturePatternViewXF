@@ -12,6 +12,7 @@
         <gesturePatternView:GesturePatternView x:Name="MyGesturePatternView" Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Black"
                                   HorizontalTouchPoints="3" VerticalTouchPoints="3"
                                   GesturePatternValue="{Binding GestureValue, Mode=TwoWay}" TouchPointColor="White" TouchPointHighlightColor="Yellow" LineDrawingColor="Green" LineDrawnColor="Red"
+                                  LineDrawingStrokeWidth="20" LineDrawnStrokeWidth="10" TouchPointStrokeWidth="5" TouchPointTouchedStrokeWidth="10" TouchPointInnerCircleStrokeWidth="50"
                                   GesturePatternCompleted="MyGesturePatternView_OnGesturePatternCompleted"/>
     </Grid>
 </ContentPage>

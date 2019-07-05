@@ -54,9 +54,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="FaulandCc.XF.GesturePatternView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\FaulandCc.XF.GesturePatternView.1.0.1\lib\portable45-net45+win8+wp8+wpa81\FaulandCc.XF.GesturePatternView.dll</HintPath>
-    </Reference>
     <Reference Include="Plugin.Vibrate, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xam.Plugins.Vibrate.3.0.1\lib\netstandard\Plugin.Vibrate.dll</HintPath>
     </Reference>
@@ -81,6 +78,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FaulandCc.XF.GesturePatternView\FaulandCc.XF.GesturePatternView.csproj">
+      <Project>{a825c81c-454e-41ef-9aef-4c5b0af8d524}</Project>
+      <Name>FaulandCc.XF.GesturePatternView</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\..\packages\Xamarin.Forms.2.3.4.247\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />

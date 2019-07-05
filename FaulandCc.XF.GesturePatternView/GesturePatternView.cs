@@ -58,14 +58,39 @@ namespace FaulandCc.XF.GesturePatternView
         public static readonly BindableProperty TouchPointHighlightColorProperty = BindableProperty.Create<GesturePatternView, Color>(x => x.TouchPointHighlightColor, Color.Yellow, BindingMode.OneWay);
 
         /// <summary>
+        /// The touch point stroke width.
+        /// </summary>
+        public static readonly BindableProperty TouchPointStrokeWidthProperty = BindableProperty.Create<GesturePatternView, float>(x => x.TouchPointStrokeWidth, 3, BindingMode.OneWay);
+
+        /// <summary>
+        /// The touched touch point stroke width.
+        /// </summary>
+        public static readonly BindableProperty TouchPointTouchedStrokeWidthProperty = BindableProperty.Create<GesturePatternView, float>(x => x.TouchPointTouchedStrokeWidth, 3, BindingMode.OneWay);
+
+        /// <summary>
+        /// The touch point inner circle stroke width.
+        /// </summary>
+        public static readonly BindableProperty TouchPointInnerCircleStrokeWidthProperty = BindableProperty.Create<GesturePatternView, float>(x => x.TouchPointInnerCircleStrokeWidth, 3, BindingMode.OneWay);
+
+        /// <summary>
         /// The color to use for a drawing line.
         /// </summary>
         public static readonly BindableProperty LineDrawingColorProperty = BindableProperty.Create<GesturePatternView, Color>(x => x.LineDrawingColor, Color.Red, BindingMode.OneWay);
 
         /// <summary>
+        /// The stroke width to use for a drawing line.
+        /// </summary>
+        public static readonly BindableProperty LineDrawingStrokeWidthProperty = BindableProperty.Create<GesturePatternView, float>(x => x.LineDrawingStrokeWidth, 5, BindingMode.OneWay);
+
+        /// <summary>
         /// The color to use for a drawn line.
         /// </summary>
         public static readonly BindableProperty LineDrawnColorProperty = BindableProperty.Create<GesturePatternView, Color>(x => x.LineDrawnColor, Color.Green, BindingMode.OneWay);
+
+        /// <summary>
+        /// The stroke width to use for a drawn line.
+        /// </summary>
+        public static readonly BindableProperty LineDrawnStrokeWidthProperty = BindableProperty.Create<GesturePatternView, float>(x => x.LineDrawnStrokeWidth, 5, BindingMode.OneWay);
 
         /// <summary>
         /// Vibrate when touching a touch point.
@@ -124,6 +149,33 @@ namespace FaulandCc.XF.GesturePatternView
         }
 
         /// <summary>
+        /// The touch point stroke width.
+        /// </summary>
+        public float TouchPointStrokeWidth
+        {
+            get { return (float)GetValue(TouchPointStrokeWidthProperty); }
+            set { SetValue(TouchPointStrokeWidthProperty, value); }
+        }
+
+        /// <summary>
+        /// The touched touch point stroke width.
+        /// </summary>
+        public float TouchPointTouchedStrokeWidth
+        {
+            get { return (float)GetValue(TouchPointTouchedStrokeWidthProperty); }
+            set { SetValue(TouchPointTouchedStrokeWidthProperty, value); }
+        }
+
+        /// <summary>
+        /// The touch point inner circle stroke width.
+        /// </summary>
+        public float TouchPointInnerCircleStrokeWidth
+        {
+            get { return (float)GetValue(TouchPointInnerCircleStrokeWidthProperty); }
+            set { SetValue(TouchPointInnerCircleStrokeWidthProperty, value); }
+        }
+
+        /// <summary>
         /// The color to use for a drawing line.
         /// </summary>
         public Color LineDrawingColor
@@ -133,12 +185,30 @@ namespace FaulandCc.XF.GesturePatternView
         }
 
         /// <summary>
+        /// The stroke width to use for a drawing line.
+        /// </summary>
+        public float LineDrawingStrokeWidth
+        {
+            get { return (float)GetValue(LineDrawingStrokeWidthProperty); }
+            set { SetValue(LineDrawingStrokeWidthProperty, value); }
+        }
+
+        /// <summary>
         /// The color to use for a drawn line.
         /// </summary>
         public Color LineDrawnColor
         {
             get { return (Color)GetValue(LineDrawnColorProperty); }
             set { SetValue(LineDrawnColorProperty, value); }
+        }
+
+        /// <summary>
+        /// The stroke width to use for a drawn line.
+        /// </summary>
+        public float LineDrawnStrokeWidth
+        {
+            get { return (float)GetValue(LineDrawnStrokeWidthProperty); }
+            set { SetValue(LineDrawnStrokeWidthProperty, value); }
         }
 
         /// <summary>
@@ -346,31 +416,31 @@ namespace FaulandCc.XF.GesturePatternView
             {
                 Style = SKPaintStyle.StrokeAndFill,
                 Color = this.TouchPointColor.ToSKColor(),
-                StrokeWidth = 3
+                StrokeWidth = this.TouchPointStrokeWidth
             };
             SKPaint skPaintTouchPointTouched = new SKPaint
             {
                 Style = SKPaintStyle.Stroke,
                 Color = this.TouchPointHighlightColor.ToSKColor(),
-                StrokeWidth = 3
+                StrokeWidth = this.TouchPointTouchedStrokeWidth
             };
             SKPaint skPaintTouchPointTouchedInnerCircle = new SKPaint
             {
                 Style = SKPaintStyle.StrokeAndFill,
                 Color = this.LineDrawnColor.ToSKColor(),
-                StrokeWidth = 3
+                StrokeWidth = this.TouchPointInnerCircleStrokeWidth
             };
             SKPaint skPaintLineDrawing = new SKPaint
             {
                 Style = SKPaintStyle.Stroke,
                 Color = this.LineDrawingColor.ToSKColor(),
-                StrokeWidth = 5
+                StrokeWidth = this.LineDrawingStrokeWidth
             };
             SKPaint skPaintLineDrawn = new SKPaint
             {
                 Style = SKPaintStyle.Stroke,
                 Color = this.LineDrawnColor.ToSKColor(),
-                StrokeWidth = 5
+                StrokeWidth = this.LineDrawnStrokeWidth
             };
 
             // Paint the touchpoints.

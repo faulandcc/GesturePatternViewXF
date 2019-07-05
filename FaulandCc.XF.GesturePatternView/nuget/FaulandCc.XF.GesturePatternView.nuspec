@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>Alexander Fauland</owners>
@@ -12,6 +12,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <copyright>$copyright$</copyright>
+    <releaseNotes>New properties to specify line/circle-stroke width: TouchPointStrokeWidth, TouchPointTouchedStrokeWidth, TouchPointInnerCircleStrokeWidth, LineDrawingStrokeWidth, LineDrawnStrokeWidth</releaseNotes>
     <tags>xamarin, xamarin.forms, android, ios, uwp, plugins, plugin for xamarin, gesture, login, pattern</tags>
   </metadata>
   <files>

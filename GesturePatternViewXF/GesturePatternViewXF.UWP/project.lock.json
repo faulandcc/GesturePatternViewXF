@@ -2254,8 +2254,14 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "GesturePatternViewXF/1.0.0": {
+      "FaulandCc.XF.GesturePatternView/1.0.0": {
         "type": "project"
+      },
+      "GesturePatternViewXF/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "FaulandCc.XF.GesturePatternView": "1.0.0"
+        }
       }
     },
     "UAP,Version=v10.0.10586/win10-arm": {
@@ -4574,8 +4580,14 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "GesturePatternViewXF/1.0.0": {
+      "FaulandCc.XF.GesturePatternView/1.0.0": {
         "type": "project"
+      },
+      "GesturePatternViewXF/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "FaulandCc.XF.GesturePatternView": "1.0.0"
+        }
       }
     },
     "UAP,Version=v10.0.10586/win10-arm-aot": {
@@ -6930,8 +6942,14 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "GesturePatternViewXF/1.0.0": {
+      "FaulandCc.XF.GesturePatternView/1.0.0": {
         "type": "project"
+      },
+      "GesturePatternViewXF/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "FaulandCc.XF.GesturePatternView": "1.0.0"
+        }
       }
     },
     "UAP,Version=v10.0.10586/win10-x64": {
@@ -9259,8 +9277,14 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "GesturePatternViewXF/1.0.0": {
+      "FaulandCc.XF.GesturePatternView/1.0.0": {
         "type": "project"
+      },
+      "GesturePatternViewXF/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "FaulandCc.XF.GesturePatternView": "1.0.0"
+        }
       }
     },
     "UAP,Version=v10.0.10586/win10-x64-aot": {
@@ -11624,8 +11648,14 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "GesturePatternViewXF/1.0.0": {
+      "FaulandCc.XF.GesturePatternView/1.0.0": {
         "type": "project"
+      },
+      "GesturePatternViewXF/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "FaulandCc.XF.GesturePatternView": "1.0.0"
+        }
       }
     },
     "UAP,Version=v10.0.10586/win10-x86": {
@@ -13953,8 +13983,14 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "GesturePatternViewXF/1.0.0": {
+      "FaulandCc.XF.GesturePatternView/1.0.0": {
         "type": "project"
+      },
+      "GesturePatternViewXF/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "FaulandCc.XF.GesturePatternView": "1.0.0"
+        }
       }
     },
     "UAP,Version=v10.0.10586/win10-x86-aot": {
@@ -16318,8 +16354,14 @@
           "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.targets": {}
         }
       },
-      "GesturePatternViewXF/1.0.0": {
+      "FaulandCc.XF.GesturePatternView/1.0.0": {
         "type": "project"
+      },
+      "GesturePatternViewXF/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "FaulandCc.XF.GesturePatternView": "1.0.0"
+        }
       }
     }
   },
@@ -22785,6 +22827,11 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "FaulandCc.XF.GesturePatternView/1.0.0": {
+      "type": "project",
+      "path": "../../FaulandCc.XF.GesturePatternView/FaulandCc.XF.GesturePatternView.csproj",
+      "msbuildProject": "../../FaulandCc.XF.GesturePatternView/FaulandCc.XF.GesturePatternView.csproj"
+    },
     "GesturePatternViewXF/1.0.0": {
       "type": "project",
       "path": "../GesturePatternViewXF/GesturePatternViewXF.csproj",
@@ -22802,7 +22849,7 @@
   },
   "packageFolders": {
     "C:\\Users\\afaul\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Xamarin\\NuGet\\": {}
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "restore": {
@@ -22814,7 +22861,7 @@
       "outputPath": "S:\\dev\\github\\faulandcc\\XFGesturePatternView\\GesturePatternViewXF\\GesturePatternViewXF.UWP\\obj\\",
       "projectStyle": "ProjectJson",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Xamarin\\NuGet\\"
+        "C:\\ProgramData\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\afaul\\AppData\\Roaming\\NuGet\\NuGet.Config",
