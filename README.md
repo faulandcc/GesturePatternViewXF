@@ -23,8 +23,13 @@ Just add the *GesturePatternView* to your XAML.
 * GesturePatternValue = The total value of the touched touch points.
 * TouchPointColor = The color to use for untouched touch points.
 * TouchPointHightlightTextColor = The color to use for touched touch points.
+* TouchPointStrokeWidth = The stroke width of a touch point.
+* TouchPointTouchedStrokeWidth = The stroke width of a touched touch point.
+* TouchPointInnerCircleStrokeWidth = The stroke width of a touch point's inner circle.
 * LineDrawingColor = The color to use for a drawing line.
+* LineDrawingStrokeWidth = The stroke width of a drawing line.
 * LineDrawnColorProperty = The color to use for a drawn line.
+* LineDrawnStrokeWidth = The stroke width of a drawn line.
 * Vibrate = Vibrate when touching a touch point.
 
 
