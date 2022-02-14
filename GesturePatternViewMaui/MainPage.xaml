@@ -1,0 +1,19 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:gesturePatternView="clr-namespace:FaulandCc.MAUI.GesturePatternView;assembly=FaulandCc.MAUI.GesturePatternView"
+             x:Class="GesturePatternView.Maui.MainPage"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+
+    <Grid BackgroundColor="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Text="{Binding GestureValue}" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" TextColor="White"/>
+        <gesturePatternView:GesturePatternView x:Name="MyGesturePatternView" Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Black"
+                                               HorizontalTouchPoints="3" VerticalTouchPoints="3"
+                                               GesturePatternValue="{Binding GestureValue, Mode=TwoWay}" TouchPointColor="White" TouchPointHighlightColor="Yellow" LineDrawingColor="Green" LineDrawnColor="Red"
+                                               LineDrawingStrokeWidth="20" LineDrawnStrokeWidth="10" TouchPointStrokeWidth="5" TouchPointTouchedStrokeWidth="10" TouchPointInnerCircleStrokeWidth="50"
+                                               GesturePatternCompletedCommand="{Binding GestureCompletedCommand}"/>
+    </Grid>
+</ContentPage>
