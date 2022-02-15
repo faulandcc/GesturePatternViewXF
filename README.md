@@ -1,21 +1,26 @@
 # GesturePatternViewXF
-A MAUI gesture pattern view.
+A gesture pattern view for Xamarin.Forms and MAUI.
 This is an Android-like gesture pattern view you can use for logins.
 
 
 ### Setup
+* Available on NuGet: https://www.nuget.org/packages/FaulandCc.XF.GesturePatternView [![NuGet](https://img.shields.io/nuget/v/FaulandCc.XF.GesturePatternView.svg?label=NuGet)](https://www.nuget.org/packages/FaulandCc.XF.GesturePatternView/)
 * Available on NuGet: https://www.nuget.org/packages/FaulandCc.Maui.GesturePatternView [![NuGet](https://img.shields.io/nuget/v/FaulandCc.XF.GesturePatternView.svg?label=NuGet)](https://www.nuget.org/packages/FaulandCc.Maui.GesturePatternView/)
-* Install into your .NET MAUI App project.
+* Install into your PCL only or .NET MAUI App project.
 
 **Platform Support**
 
+* Xamarin.iOS, iOS 8+
+* Xamarin.Android, API 15+
+* Windows 10, UWP 10+
 * net6.0-iOS, iOS 8+
 * net6.0-android, API 15+
-* net6.0-windows 10
+* net6.0-windows
 
 
 ### Usage
-Add the *GesturePatternView* to your XAML and add '.UseSkiaSharp()' to your MauiAppBuilder.
+* Add the *GesturePatternView* to your XAML.
+* For .NET MAUI add '.UseSkiaSharp()' to your MauiAppBuilder.
 
 #### Properties (all bindable)
 * HorizontalTouchPoints = The number of horizontal touch points to create.
@@ -31,7 +36,7 @@ Add the *GesturePatternView* to your XAML and add '.UseSkiaSharp()' to your Maui
 * LineDrawnColorProperty = The color to use for a drawn line.
 * LineDrawnStrokeWidth = The stroke width of a drawn line.
 * Vibrate = Vibrate when touching a touch point.
-* GestureCompletedCommand = Command is executed when gesture pattern completed.
+* GestureCompletedCommand = Command is executed when gesture pattern completed. (.NET MAUI)
 
 
 #### Screenshot
