@@ -5,7 +5,7 @@ This is an Android-like gesture pattern view you can use for logins.
 
 ### Setup
 * Available on NuGet: https://www.nuget.org/packages/FaulandCc.XF.GesturePatternView [![NuGet](https://img.shields.io/nuget/v/FaulandCc.XF.GesturePatternView.svg?label=NuGet)](https://www.nuget.org/packages/FaulandCc.XF.GesturePatternView/)
-* Available on NuGet: https://www.nuget.org/packages/FaulandCc.Maui.GesturePatternView [![NuGet](https://img.shields.io/nuget/v/FaulandCc.XF.GesturePatternView.svg?label=NuGet)](https://www.nuget.org/packages/FaulandCc.Maui.GesturePatternView/)
+* Available on NuGet: https://www.nuget.org/packages/FaulandCc.Maui.GesturePatternView [![NuGet](https://img.shields.io/nuget/v/FaulandCc.Maui.GesturePatternView.svg?label=NuGet)](https://www.nuget.org/packages/FaulandCc.Maui.GesturePatternView/)
 * Install into your PCL only or .NET MAUI App project.
 
 **Platform Support**
