@@ -60,6 +60,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="FaulandCc.Maui.GesturePatternView" Version="1.0.1-preview" />
 	  <PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="2.88.0-preview.187" />
 	</ItemGroup>
 
