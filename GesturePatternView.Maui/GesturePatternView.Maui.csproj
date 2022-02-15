@@ -60,7 +60,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\FaulandCc.MAUI.GesturePatternView\FaulandCc.MAUI.GesturePatternView.csproj" />
+	  <PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="2.88.0-preview.187" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\FaulandCc.Maui.GesturePatternView\FaulandCc.Maui.GesturePatternView.csproj" />
 	</ItemGroup>
 
 	<PropertyGroup Condition="$(TargetFramework.Contains('-windows'))">
