@@ -12,14 +12,14 @@
 		<SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-android'">21.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$(TargetFramework.Contains('-windows'))">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$(TargetFramework.Contains('-windows'))">10.0.17763.0</TargetPlatformMinVersion>
-		<AssemblyVersion>1.0.1</AssemblyVersion>
-		<FileVersion>1.0.1</FileVersion>
+		<AssemblyVersion>1.0.1.1</AssemblyVersion>
+		<FileVersion>1.0.1.1</FileVersion>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageProjectUrl>https://github.com/faulandcc/GesturePatternViewXF</PackageProjectUrl>
 		<Copyright>(c) 2022 Alexander Fauland</Copyright>
 		<Company>FAULAND.CC Softwaredevelopment</Company>
 		<Authors>Alexander Fauland</Authors>
-		<Version>1.0.1-preview</Version>
+		<Version>1.0.1.1</Version>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 		<PackageTags>.NET 6, maui, android, ios, windows, plugins, plugin for maui, gesture, login, pattern</PackageTags>
 		<RepositoryType>git</RepositoryType>
