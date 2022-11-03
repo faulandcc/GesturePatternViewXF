@@ -51,14 +51,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Microsoft.Maui.Graphics.Skia" Version="6.0.200-preview.12.852" />
+	  <PackageReference Include="Microsoft.Maui.Graphics.Skia" Version="6.0.501" />
 	  <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
 	    <PrivateAssets>all</PrivateAssets>
 	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 	  </PackageReference>
-	  <PackageReference Include="SkiaSharp" Version="2.88.0-preview.187" />
-	  <PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="2.88.0-preview.187" />
-	  <PackageReference Include="SkiaSharp.Views.Maui.Core" Version="2.88.0-preview.187" />
+	  <PackageReference Include="SkiaSharp" Version="2.88.3" />
+	  <PackageReference Include="SkiaSharp.Views.Maui.Controls" Version="2.88.3" />
+	  <PackageReference Include="SkiaSharp.Views.Maui.Core" Version="2.88.3" />
 	</ItemGroup>
 
 </Project>

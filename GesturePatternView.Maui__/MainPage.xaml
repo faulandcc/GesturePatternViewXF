@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:gesturePatternView="clr-namespace:FaulandCc.MAUI.GesturePatternView;assembly=FaulandCc.Maui.GesturePatternView"
+             xmlns:local="clr-namespace:GesturePatternView.Maui"
+             x:Class="GesturePatternView.Maui.MainPage"
+             x:DataType="local:MainPage">
+
+    <StackLayout BackgroundColor="Black">
+        <gesturePatternView:GesturePatternView x:Name="MyGesturePatternView" Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Black"
+                                               HorizontalTouchPoints="3" VerticalTouchPoints="3"
+                                               GesturePatternValue="{Binding GestureValue, Mode=TwoWay}" TouchPointColor="White" TouchPointHighlightColor="Yellow" LineDrawingColor="Green" LineDrawnColor="Red"
+                                               LineDrawingStrokeWidth="20" LineDrawnStrokeWidth="10" TouchPointStrokeWidth="5" TouchPointTouchedStrokeWidth="10" TouchPointInnerCircleStrokeWidth="50"
+                                               GesturePatternCompletedCommand="{Binding GestureCompletedCommand}"/>
+    </StackLayout>
+</ContentPage>

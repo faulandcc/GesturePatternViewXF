@@ -1,19 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:gesturePatternView="clr-namespace:FaulandCc.MAUI.GesturePatternView;assembly=FaulandCc.MAUI.GesturePatternView"
+             xmlns:gesturePatternView="clr-namespace:FaulandCc.MAUI.GesturePatternView;assembly=FaulandCc.Maui.GesturePatternView"
+             xmlns:local="clr-namespace:GesturePatternView.Maui"
              x:Class="GesturePatternView.Maui.MainPage"
-             BackgroundColor="{DynamicResource SecondaryColor}">
+             x:DataType="local:MainPage">
 
-    <Grid BackgroundColor="Black">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
-        <Label Grid.Row="0" Text="{Binding GestureValue}" HorizontalTextAlignment="Center" HorizontalOptions="FillAndExpand" TextColor="White"/>
-        <gesturePatternView:GesturePatternView x:Name="MyGesturePatternView" Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Black"
+    <StackLayout BackgroundColor="Black">
+        <gesturePatternView:GesturePatternView x:Name="MyGesturePatternView" BackgroundColor="Black"
                                                HorizontalTouchPoints="3" VerticalTouchPoints="3"
+                                               HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
                                                GesturePatternValue="{Binding GestureValue, Mode=TwoWay}" TouchPointColor="White" TouchPointHighlightColor="Yellow" LineDrawingColor="Green" LineDrawnColor="Red"
                                                LineDrawingStrokeWidth="20" LineDrawnStrokeWidth="10" TouchPointStrokeWidth="5" TouchPointTouchedStrokeWidth="10" TouchPointInnerCircleStrokeWidth="50"
                                                GesturePatternCompletedCommand="{Binding GestureCompletedCommand}"/>
-    </Grid>
+    </StackLayout>
+
 </ContentPage>
