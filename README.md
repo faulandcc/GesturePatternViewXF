@@ -1,4 +1,4 @@
-# GesturePatternViewXF
+# GesturePatternView
 A gesture pattern view for Xamarin.Forms and MAUI.
 This is an Android-like gesture pattern view you can use for logins.
 
@@ -20,7 +20,7 @@ This is an Android-like gesture pattern view you can use for logins.
 
 ### Usage
 * Add the *GesturePatternView* to your XAML.
-* For .NET MAUI add '.UseSkiaSharp()' to your MauiAppBuilder.
+* For .NET MAUI add '.UseFaulandGesturePattern()' to your MauiAppBuilder.
 
 #### Properties (all bindable)
 * HorizontalTouchPoints = The number of horizontal touch points to create.
@@ -48,6 +48,3 @@ If you want to contribute code please file an issue and create a branch off of t
 
 #### License
 Under MIT, see LICENSE file.
-
-#### Note
-This is my very first project here on GitHub including a NuGet package. I took the readme.md of James Montemagno's VibratePlugin as a template. Thank you!
