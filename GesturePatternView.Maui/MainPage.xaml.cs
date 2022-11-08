@@ -1,39 +1,40 @@
 ﻿using System.Windows.Input;
-using FaulandCc.MAUI.GesturePatternView;
 
-namespace GesturePatternView.Maui;
-
-public partial class MainPage : ContentPage
+namespace GesturePatternView.Maui
 {
-    private string _lastGesture;
-    public ICommand GestureCompletedCommand { get; }
-
-	public MainPage()
-	{
-		InitializeComponent();
-
-        GestureCompletedCommand = new Command(ExecuteGestureCompletedCommand, _ => true);
-
-        BindingContext = this;
-    }
-
-    private void MyGesturePatternView_OnGesturePatternCompleted(object sender, GesturePatternCompletedEventArgs e)
+    public partial class MainPage : ContentPage
     {
-        _lastGesture = this.MyGesturePatternView.GesturePatternValue;
-		Device.BeginInvokeOnMainThread(DisplayGesturePatternValue);
-        this.MyGesturePatternView.Clear();
-    }
+        public ICommand GestureCompletedCommand { get; }
 
-    private async void DisplayGesturePatternValue()
-    {
-        await DisplayAlert("Gesture", $"Your code: [{_lastGesture}]", "Ok");
-    }
+        private string _gestureValue;
 
-    public void ExecuteGestureCompletedCommand(object gesture)
-    {
-        _lastGesture = gesture.ToString();
-        Device.BeginInvokeOnMainThread(DisplayGesturePatternValue);
-        this.MyGesturePatternView.Clear();
+        public string GestureValue
+        {
+            get => _gestureValue;
+            set
+            {
+                if (_gestureValue == value) return;
+
+                OnPropertyChanging();
+                _gestureValue = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public MainPage()
+        {
+            InitializeComponent();
+
+            GestureCompletedCommand = new Command(ExecuteGestureCompletedCommand, _ => true);
+
+            BindingContext = this;
+        }
+
+        public void ExecuteGestureCompletedCommand(object gesture)
+        {
+            GestureValue = gesture.ToString();
+            DisplayAlert("Gesture", $"Your code: [{GestureValue}]", "Ok");
+            this.MyGesturePatternView.Clear();
+        }
     }
 }
-

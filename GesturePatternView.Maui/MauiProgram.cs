@@ -1,20 +1,22 @@
-﻿using SkiaSharp.Views.Maui.Controls.Hosting;
+﻿using FaulandCc.MAUI.GesturePatternView.Extensions;
 
-namespace GesturePatternView.Maui;
-
-public static class MauiProgram
+namespace GesturePatternView.Maui
 {
-	public static MauiApp CreateMauiApp()
-	{
-		var builder = MauiApp.CreateBuilder();
-		builder
-            .UseSkiaSharp()
-			.UseMauiApp<App>()
-			.ConfigureFonts(fonts =>
-			{
-				fonts.AddFont("OpenSansRegular.ttf", "OpenSansRegular");
-			});
+    public static class MauiProgram
+    {
+        public static MauiApp CreateMauiApp()
+        {
+            var builder = MauiApp.CreateBuilder();
+            builder
+                .UseMauiApp<App>()
+                .UseFaulandGesturePattern()
+                .ConfigureFonts(fonts =>
+                {
+                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                });
 
-		return builder.Build();
-	}
+            return builder.Build();
+        }
+    }
 }

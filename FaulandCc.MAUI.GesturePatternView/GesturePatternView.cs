@@ -312,14 +312,17 @@ public class GesturePatternView : ContentView
     {
         try
         {
-            Vibration.Vibrate(TimeSpan.FromMilliseconds(100));
+            if (!Vibration.Default.IsSupported) return;
+            Vibration.Default.Vibrate(TimeSpan.FromMilliseconds(100));
         }
         catch
         {
             // ignore. Vibration not supported.
         }
-        
-        this.TouchPointTouched?.Invoke(this, new TouchPointTouchedEventArgs(gtp));
+        finally
+        {
+            this.TouchPointTouched?.Invoke(this, new TouchPointTouchedEventArgs(gtp));
+        }
     }
 
     #endregion
